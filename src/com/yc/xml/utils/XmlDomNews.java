@@ -120,7 +120,7 @@ public class XmlDomNews {
 	}
 
 	/**
-	 *list数据转Json格式  借助外部包 
+	 *list数据转Json格式  借助外部包 Gson
 	 */
 	public String getJsonDataByGson(List<News> newsList){
 		Gson gson = new Gson();
